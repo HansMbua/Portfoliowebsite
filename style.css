@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
+
 /*nav bar*/
 .navbar{
     display: flex;
@@ -223,4 +227,8 @@ margin-bottom: 50px;
     margin: 40px;
     border: none;
     outline: none;
+}
+#send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
 }

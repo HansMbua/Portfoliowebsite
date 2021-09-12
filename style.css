@@ -182,3 +182,8 @@ margin-bottom: 50px;
     border: none;
     box-shadow: 0 0 20px rgb(255,45,45);
 }
+
+.box img{
+    width: 80px;
+    height: 80px;
+}

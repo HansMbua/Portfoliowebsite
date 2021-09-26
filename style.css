@@ -7,10 +7,7 @@
 html{
     scroll-behavior: smooth;
 }
-body{
-    font-family: 'Roboto',sans-serif;
 
-}
 /*nav bar*/
 .navbar{
     display: flex;

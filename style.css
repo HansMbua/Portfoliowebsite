@@ -77,9 +77,7 @@ color: white;
     align-items: center;
     position: absolute;
     top: 30%;
-    right: 10%;
-
-    
+    right: 10%;    
 }
 .headings{
     font-family: century;
@@ -97,6 +95,7 @@ color: white;
     outline: none;
     transition: .6s ease;
 }
+
 .btn:hover{
     cursor: pointer;
     background-color: white;
@@ -105,7 +104,10 @@ color: white;
     font-weight: bold;
 
 }
-
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
 /* about section */
 #about{
     display: flex;
